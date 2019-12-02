@@ -17,6 +17,6 @@ public class JenkinsApplication {
     @ResponseBody
     @GetMapping("/hello")
     public String hello() {
-        return "hello";
+        return "hello jenkins";
     }
 }
